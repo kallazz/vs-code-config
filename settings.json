@@ -1,0 +1,24 @@
+{
+    "editor.renderWhitespace": "trailing",
+    "[asm-intel-x86-generic]": {},
+    "window.zoomLevel": 1,
+    "redhat.telemetry.enabled": false,
+    "workbench.colorTheme": "Default Dark+",
+    "dart.flutterSdkPath": "C:\\flutter",
+    "zig.initialSetupDone": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+
+    // VIM
+    "vim.leader": "<Space>",
+    "vim.normalModeKeyBindingsNonRecursive": [
+        { "before": ["<S-h>"], "commands": [":bprevious"] },
+        { "before": ["<S-l>"], "commands": [":bnext"] },
+        { "before": ["<C-q>"], "commands": [":tabc"] },
+        { "before": ["<C-k>", "w"], "commands": ["workbench.action.closeEditorsInGroup"]},
+        { "before": ["leader", "f"], "commands": ["workbench.action.quickOpen"] },
+        { "before": ["<C-d>"], "after": ["<C-d>", "z", "z"] },
+        { "before": ["<C-u>"], "after": ["<C-u>", "z", "z"] },
+        { "before": ["leader", "h"], "after": ["_"] },
+        { "before": ["leader", "l"], "after": ["$"] },
+    ]
+}
