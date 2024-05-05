@@ -9,6 +9,7 @@
     "diffEditor.ignoreTrimWhitespace": false,
 
     // VIM
+    "editor.lineNumbers": "relative",
     "vim.leader": "<Space>",
     "vim.normalModeKeyBindingsNonRecursive": [
         { "before": ["<S-h>"], "commands": [":bprevious"] },
