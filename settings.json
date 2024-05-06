@@ -1,12 +1,6 @@
 {
     "editor.renderWhitespace": "trailing",
-    "[asm-intel-x86-generic]": {},
-    "window.zoomLevel": 1,
-    "redhat.telemetry.enabled": false,
     "workbench.colorTheme": "Default Dark+",
-    "dart.flutterSdkPath": "C:\\flutter",
-    "zig.initialSetupDone": true,
-    "diffEditor.ignoreTrimWhitespace": false,
 
     // VIM
     "editor.lineNumbers": "relative",
