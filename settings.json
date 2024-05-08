@@ -4,6 +4,7 @@
 
     // VIM
     "editor.lineNumbers": "relative",
+    "vim.useSystemClipboard": true,
     "vim.leader": "<Space>",
     "vim.normalModeKeyBindingsNonRecursive": [
         { "before": ["<S-h>"], "commands": [":bprevious"] },
